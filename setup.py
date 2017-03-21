@@ -8,7 +8,7 @@ service = Target(
     description="Administrative service for bitmask client",
     modules=["windows_installer"],
     cmdline_style='pywin32',
-)
+) 
 
 opts = {'py2exe': {
     'dll_excludes': ['libzmq.pyd', 'OLEAUT32.dll', 'USER32.dll', 'SHELL32.dll', 'ole32.dll',
