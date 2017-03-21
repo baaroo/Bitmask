@@ -35,7 +35,6 @@ def download_third_parties():
     print 'Downloading', tuntap_url
     downloader.retrieve(tuntap_url, tuntap_filename)
 
-
 def initialize():
     print "Initializing..."
     third_party_path = os.path.join(os.getcwd(), "third-party")
