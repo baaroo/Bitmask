@@ -36,6 +36,6 @@ class WinInstaller(win32serviceutil.ServiceFramework):
                 break
             pass
 
-
+ 
 if __name__ == '__main__':
     win32serviceutil.HandleCommandLine(WinInstaller)
